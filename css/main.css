@@ -1,0 +1,155 @@
+@font-face {
+  font-family: logo;
+  src: url(../fonts/China.ttf);
+}
+
+@font-face {
+  font-family: menu;
+  src: url(../fonts/Moyko.ttf);
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background: #d5d9e8;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #04213E;
+  border-radius: 3px;
+}
+
+body>.container {
+  padding: 60px 15px 0;
+}
+
+.text-muted {
+  margin: 20px 0;
+  color: #084887;
+  text-align: right;
+}
+
+.page-header>img {
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.col-lg-4>.img-circle {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.col-lg-4>h3 {
+  text-align: center;
+  font-family: 'menu';
+}
+
+.col-lg-12>h1, .container>h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'menu';
+}
+
+.navbar-default {
+  background: #04213E;
+  height: 70px;
+  border-radius: 3px;
+}
+
+.navbar {
+  font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #F7F5FB;
+  font-family: 'menu';
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #F9AB55;
+  font-family: 'menu';
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #F58A07;
+  background: #084887;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: #F58A07;
+  background: #084887;
+  border: 1px solid #F58A07;
+}
+
+.logo {
+  padding-left: 10px;
+  font-size: 60px;
+  vertical-align: bottom;
+  font-family: 'logo';
+  color: #F9AB55;
+}
+
+.navbar-brand>a {
+  color: #084887;
+  font-family: 'menu';
+  margin-top: 5px;
+  font-size: 35px;
+}
+
+.navbar-brand>a:hover, .navbar-brand>a:focus {
+  text-decoration: none;
+  font-size: 38px;
+}
+
+.navbar-brand>p {
+  font-size: 20px;
+  padding-top: 5px;
+  color: #F9AB55;
+}
+
+.navbar-default .navbar-toggle {
+  border: 3px solid #084887;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  border-color: #eba754;
+  background: #04213E;
+}
+
+.navbar-collapse {
+  background: #04213E;
+  border-top: none;
+}
+
+.carousel {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.chinese-menu {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  border: 3px dashed #084887;
+  box-shadow: 0 0 0 3px #084887, 0 0 0 7px #F58A07, 0 0 0 3px #084887, 0 0 5px 10px #084887;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.chinese-menu>h3 {
+  text-align: center;
+  font-family: 'menu';
+}
